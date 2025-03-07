@@ -1,5 +1,5 @@
 'use client'
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 /**
  * Calculates the hat counter values based on the given number of loops.
@@ -10,7 +10,7 @@ import { useEffect, useState } from "react";
  */
 function hatCounter(silmukat: number, keyPrefix = 'loop'): { [key: string]: number[] } | void {
   if (silmukat < 16) return;
-  const vahennys = new Array;
+  const vahennys = [];
   const silmukkaVali = silmukat / 8;
 
   for (let i = 0; i < 8; i++) {
