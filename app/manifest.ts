@@ -5,6 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: 'Pipolaskuri',
     short_name: 'Pipolaskuri',
     description: 'Laskuri pipon kavennyssilmukoiden laskemiseen',
+    scope: "https://neuloen.vercel.app/",
     start_url: '/',
     display: 'fullscreen',
     background_color: '#ffffff',
